@@ -1,0 +1,45 @@
+{
+  "name": "simple-list-apx2",
+  "version": "0.1.0",
+  "description": "Simple List for any array with Name,title,icon,item",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "author": "Bastian Pérez(bastipls)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "files": [
+    "/lib"
+ ],
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@storybook/addon-actions": "6.3.10",
+    "@storybook/addon-essentials": "6.3.10",
+    "@storybook/addon-links": "6.3.10",
+    "@storybook/react": "6.3.10",
+    "@types/react": "^17.0.28",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.3.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {}
+}
