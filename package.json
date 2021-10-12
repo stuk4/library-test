@@ -1,6 +1,6 @@
 {
   "name": "simple-list-apx2",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "description": "Simple List for any array with Name,title,icon,item",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",

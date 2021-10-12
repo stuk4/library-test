@@ -1,20 +1,12 @@
 import React from 'react'
 import '../assets/styles.css'
+import { Item, PropsSimpleList } from './SimpleList.types';
 
 
-interface Data {
-    [k:string]:any
-}
-export interface PropsSimpleList<T> {
-    title:string,
-    items:T[],
-    iconA:JSX.Element ,
-}
-interface Item{
-    id:string | number
-    name: string
-    date:string,
-}
+
+
+
+
 // Aqui hago una resetriccion que mi componente el tipo de objeto que se le pasara deberia tener 
 // por lo menos las propiedades de Item para funcinar
 //ref: https://www.benmvp.com/blog/generic-react-components-typescript/

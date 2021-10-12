@@ -1,8 +1,10 @@
 import { Meta, Story } from "@storybook/react/types-6-0";
-import SimpleList,{ PropsSimpleList}  from "./SimpleList";
+import SimpleList from "./SimpleList";
 import React from "react";
 import { faAd, faFile } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { PropsSimpleList } from "./SimpleList.types";
+
 
 export default {
   title: "Components/Lists",
